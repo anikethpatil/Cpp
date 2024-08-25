@@ -1,2 +1,2 @@
 # Cpp
-Cpp basics
+Some basics using cpp
