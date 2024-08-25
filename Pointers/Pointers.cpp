@@ -76,6 +76,23 @@ int main(){
     cout<<a<<" "<<b<<endl;
 }
 
+//2nd example
+void swap(int &a,int &b){
+    int temp=a;
+    a=b;
+    b=temp;
+}
+int main(){
+    int a=10;
+    int b=20;
+    cout<<a<<" "<<b<<endl;
+    swap(a,b);
+    cout<<a<<" "<<b<<endl;
+    return 0;
+}
+// 10 20
+// 20 10
+
 //passing address as ptr to function=call by reference
 void increment(int *a){
     ++*a;
