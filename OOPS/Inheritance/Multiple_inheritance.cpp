@@ -8,10 +8,12 @@ public:
     int age;
     double cgpa;
 };
+
 class Cr{
 public:
     string quality;
 };
+
 class CollegePresident: public Cr,public Student{
 public:
     long int vote;
@@ -19,6 +21,7 @@ public:
         cout<<name<<" "<<age<<" "<<cgpa<<" "<<quality<<" "<<vote<<endl;
     }
 };
+
 int main(){
     CollegePresident s1;
     s1.name="Anil";
