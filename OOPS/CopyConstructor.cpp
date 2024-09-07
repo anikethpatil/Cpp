@@ -36,3 +36,28 @@ int main(){
     h1.displayInfo();
     return 0;
 }
+
+// #include <iostream>
+// #include <string>
+// using namespace std;
+
+// class A{
+//     public:
+//     string name;
+//     int age;
+//     A(string name,int age){
+//         this->name=name;
+//         this->age=age;
+//     }
+//     ~A(){
+//         cout<<"Destructor called"<<endl;
+//     }
+// };
+// int main(){
+//     //Static
+//     A obj1("Anne Frank",16);
+//     //Dynamic
+//     A *obj2=new A("Anne",18);
+//     delete(obj2);
+//     return 0;
+// }
